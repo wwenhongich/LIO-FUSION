@@ -11,30 +11,11 @@
 
   - [**Package install**](#install)
 
-  - [**Prepare lidar data**](#prepare-lidar-data) (must read)
-
-  - [**Prepare IMU data**](#prepare-imu-data) (must read)
-
-  - [**Prepare Encoder data**](#prepare-encoder-data) (must read)
-
-  - [**Sample datasets**](#sample-datasets)
+  - [**Sample datasets**](#sample-daasets)
 
   - [**Run the package**](#run-the-package)
 
-  - [**Other notes**](#other-notes)
-
-  - [**Issues**](#issues)
-
-  - [**Paper**](#paper)
-
-  - [**TODO**](#todo)
-
-  - [**Related Package**](#related-package)
-
-  - [**Acknowledgement**](#acknowledgement)
-
 ## System architecture
-
 
 We design a system that maintains main factor graph and sub factor graph. 
 
@@ -42,36 +23,16 @@ We design a system that maintains main factor graph and sub factor graph.
 
 This is the original ROS1 implementation of LIO-Fusion. 
 
-- [ROS](http://wiki.ros.org/ROS/Installation) (tested with Melodic and Noetic.)
-  ```
-  sudo apt-get install -y ros-melodic-robot-state-publisher
-  ```
-- [gtsam](https://gtsam.org/get_started/) (Georgia Tech Smoothing and Mapping library)
-  ```
-  sudo add-apt-repository ppa:borglab/gtsam-release-4.0
-  sudo apt update
-  sudo apt install libgtsam-dev libgtsam-unstable-dev
-  ```
-
 ## Install
 
 Use the following commands to download and compile the package.
 
 ```
 cd ~/catkin_ws/src
-git clone Xmuwwh/LIO-FUSION.git
+git clone wwenhong/LIO-FUSION.git
 cd ..
 catkin_make
 ```
-
-## Prepare lidar data
-
-
-## Prepare IMU data
-
-
-## Prepare Encoder data
-
 
 ## Sample datasets
 
@@ -80,7 +41,7 @@ catkin_make
 
 1. Run the launch file:
 ```
-roslaunch lio_fusion run.launch
+roslaunch lio_fusion fusion.launch
 ```
 
 2. Play existing bag files:
@@ -88,27 +49,3 @@ roslaunch lio_fusion run.launch
 rosbag play your-bag.bag 
 ```
 
-## Other notes
-
- 
-
-## Service
-
-
-## Issues
-
-
-## Paper 
-
-
-
-## TODO
-
-
-## Related Package
-
-
-
-## Acknowledgement
-
-  - LIO-Fusion is based on LIO-SAM.
