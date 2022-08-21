@@ -15,6 +15,8 @@
 
   - [**Prepare IMU data**](#prepare-imu-data) (must read)
 
+  - [**Prepare Encoder data**](#prepare-encoder-data) (must read)
+
   - [**Sample datasets**](#sample-datasets)
 
   - [**Run the package**](#run-the-package)
@@ -40,11 +42,9 @@ We design a system that maintains main factor graph and sub factor graph.
 
 This is the original ROS1 implementation of LIO-Fusion. 
 
-- [ROS](http://wiki.ros.org/ROS/Installation) (tested with Kinetic and Melodic. Refer to [#206](https://github.com/TixiaoShan/LIO-SAM/issues/206) for Noetic)
+- [ROS](http://wiki.ros.org/ROS/Installation) (tested with Melodic and Noetic.)
   ```
-  sudo apt-get install -y ros-kinetic-navigation
-  sudo apt-get install -y ros-kinetic-robot-localization
-  sudo apt-get install -y ros-kinetic-robot-state-publisher
+  sudo apt-get install -y ros-melodic-robot-state-publisher
   ```
 - [gtsam](https://gtsam.org/get_started/) (Georgia Tech Smoothing and Mapping library)
   ```
@@ -59,7 +59,7 @@ Use the following commands to download and compile the package.
 
 ```
 cd ~/catkin_ws/src
-git clone 
+git clone Xmuwwh/LIO-FUSION.git
 cd ..
 catkin_make
 ```
@@ -111,4 +111,4 @@ rosbag play your-bag.bag
 
 ## Acknowledgement
 
-  - LIO-Fusion is based on LIO-SAM (J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time).
+  - LIO-Fusion is based on LIO-SAM.
