@@ -20,11 +20,7 @@
 
 ## System architecture
 
-We design a system that maintains main factor graph and sub factor graph. 
-
 ## Dependency
-
-This is the original ROS1 implementation of LIO-Fusion. 
 
 ## Install
 
