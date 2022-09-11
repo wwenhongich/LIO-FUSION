@@ -2,7 +2,7 @@
 
 **A reinforced LiDAR inertial odometry system that optimally fuses GPS/relocalization and wheel odometry to provide accurate and robust 6-DoF movement estimation under challenging perceptual conditions. A video of the demonstration of the method can be found on [YouTube](https://youtu.be/1I6E1_3VOVo).**
 
-**Authors:** Wenhong Wu, Xunyu Zhong, Dongjie Wu, Bushi Chen, Xungao Zhong and Qiang Liu
+**Authors:** Wenhong Wu, Xunyu Zhong*, Dongjie Wu, Bushi Chen, Xungao Zhong and Qiang Liu
 
 ## Menu
 
