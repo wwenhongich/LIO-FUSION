@@ -12,7 +12,7 @@
 
   - [**Package install**](#install)
   
-  - [**Gazebo simulation**](#install)
+  - [**Gazebo simulation**](#Gazebo_simulation)
 
   - [**Sample datasets**](#sample-daasets)
 
@@ -32,6 +32,8 @@ git clone wwenhong/LIO-FUSION.git
 cd ..
 catkin_make
 ```
+
+## Gazebo_simulation
 
 ## Sample datasets
 
