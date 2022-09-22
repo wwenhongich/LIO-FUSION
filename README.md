@@ -21,12 +21,12 @@
 ## System architecture
 
 ## Dependency
-'''
+```
 git clone https://github.com/borglab/gtsam.git
 mkdir build && cd build
 cmake -DGTSAM_BUILD_WITH_MARCH_NATIVE=OFF ..
 sudo make install -j4
-'''
+```
 ## Install
 
 Use the following commands to download and compile the package.
