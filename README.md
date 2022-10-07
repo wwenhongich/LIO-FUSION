@@ -33,7 +33,7 @@ Use the following commands to download and compile the package.
 
 ```
 cd ~/catkin_ws/src
-git clone wwenhong/LIO-FUSION.git
+git clone wwenhongich/LIO-FUSION.git
 cd ..
 catkin_make
 ```
