@@ -1,6 +1,6 @@
 # LIO-FUSION
 
-**A reinforced LiDAR inertial odometry system that effectively fuses GNSS/relocalization and wheel odometry to provide accurate and robust 6-DoF movement estimation under challenging perceptual conditions. A video of the demonstration of the method can be found on [YouTube](https://youtu.be/BB8chVWX7cA).(RA-L 2023)**
+**A reinforced LiDAR inertial odometry system that effectively fuses GNSS/relocalization and wheel odometry to provide accurate and robust 6-DoF movement estimation under challenging perceptual conditions. A video of the demonstration of the method can be found on [YouTube](https://youtu.be/BB8chVWX7cA).**
 
 **Authors:** Wenhong Wu, Xunyu Zhong*, Dongjie Wu, Bushi Chen, Xungao Zhong and Qiang Liu
 
